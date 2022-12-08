@@ -29,6 +29,8 @@ pip install -r requirement.txt
 ``` 
 #main.html
 <html>
+<script src="../aes.js"></script>
+<script src="../package.js"></script>
 <body>
 My First App
 </body>
