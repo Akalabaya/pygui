@@ -3,7 +3,7 @@ import sys
 import os
 
 print("[*] Creating project...")
-os.system("python -m venv "+sys.argv[2])
+os.system("python -m venv \""+os.path.join(sys.argv[1],sys.argv[2])+"\"")
 
 print("[*] Extracting Copying files...")
 with zipfile.ZipFile(os.path.dirname(__file__)+"/"+"pygui.zip", 'r') as zip_ref:
