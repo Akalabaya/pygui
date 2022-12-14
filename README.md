@@ -40,10 +40,11 @@ My First App
 #### Now go to the root dir and create a main.py file.
 ``` 
 #main.py
-from pygui import pygui,startapp
+from pygui import pygui,startapp,close
 app = pygui()
 def main():
   print("App Created")
+  app.this.events.closed += close
 #creating App
 app.title = "App1"
 app.gui = "Resources/main.html"
