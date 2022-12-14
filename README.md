@@ -56,7 +56,8 @@ Now run main.py in venv...
 ```
 build.bat
 ```
-and Standalone Exe will be created at dist/dist/main.exe
+and Standalone Exe will be created at dist/dist/main.exe(No console) and dist/main.exe
+
 ## Example
 you can get exmple at example.zip
 ## Acknowledgements
