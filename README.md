@@ -40,7 +40,7 @@ My First App
 #### Now go to the root dir and create a main.py file.
 ``` 
 #main.py
-from pygui import pygui,start_app
+from pygui import pygui,startapp
 app = pygui()
 def main():
   print("App Created")
@@ -48,7 +48,7 @@ def main():
 app.title = "App1"
 app.gui = "Resources/main.html"
 app.create_app()
-start_app(app1=main)
+startapp(app=main)
 ```
 Now run main.py in venv...
 
